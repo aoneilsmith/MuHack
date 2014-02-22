@@ -1,0 +1,13 @@
+Goal: design a souped up badass music player
+
+
+
+Users should be able to share eq’s for an artist, 
+
+User database:
+	username
+		-this is the primary key
+	password
+		-encrypt this with blowfish
+	email
+	
