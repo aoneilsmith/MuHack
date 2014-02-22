@@ -7,8 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AudioEngine.h"
+
 
 @interface MuHackAppDelegate : UIResponder <UIApplicationDelegate>
+{
+    // our one and only engine object
+    AudioEngine *audioEngine;
+    
+    
+}
 
 @property (strong, nonatomic) UIWindow *window;
 

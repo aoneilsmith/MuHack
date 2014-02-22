@@ -12,10 +12,13 @@
 		A05D69A518B92D0100BD0703 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A05D69A418B92D0100BD0703 /* CoreGraphics.framework */; };
 		A05D69AB18B92D0100BD0703 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A05D69A918B92D0100BD0703 /* InfoPlist.strings */; };
 		A05D69AD18B92D0100BD0703 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A05D69AC18B92D0100BD0703 /* main.m */; };
-		A05D69B118B92D0100BD0703 /* MuHackAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A05D69B018B92D0100BD0703 /* MuHackAppDelegate.m */; };
+		A05D69B118B92D0100BD0703 /* MuHackAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = A05D69B018B92D0100BD0703 /* MuHackAppDelegate.mm */; };
 		A05D69B318B92D0100BD0703 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A05D69B218B92D0100BD0703 /* Default.png */; };
 		A05D69B518B92D0100BD0703 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A05D69B418B92D0100BD0703 /* Default@2x.png */; };
 		A05D69B718B92D0100BD0703 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A05D69B618B92D0100BD0703 /* Default-568h@2x.png */; };
+		A05D69C018B937DA00BD0703 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A05D69BD18B937DA00BD0703 /* MediaPlayer.framework */; };
+		A05D69C118B937DA00BD0703 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A05D69BE18B937DA00BD0703 /* AVFoundation.framework */; };
+		A05D69C218B937DA00BD0703 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A05D69BF18B937DA00BD0703 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +31,15 @@
 		A05D69AC18B92D0100BD0703 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A05D69AE18B92D0100BD0703 /* MuHack-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MuHack-Prefix.pch"; sourceTree = "<group>"; };
 		A05D69AF18B92D0100BD0703 /* MuHackAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MuHackAppDelegate.h; sourceTree = "<group>"; };
-		A05D69B018B92D0100BD0703 /* MuHackAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MuHackAppDelegate.m; sourceTree = "<group>"; };
+		A05D69B018B92D0100BD0703 /* MuHackAppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MuHackAppDelegate.mm; sourceTree = "<group>"; };
 		A05D69B218B92D0100BD0703 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		A05D69B418B92D0100BD0703 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		A05D69B618B92D0100BD0703 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A05D69BD18B937DA00BD0703 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MediaPlayer.framework; sourceTree = "<group>"; };
+		A05D69BE18B937DA00BD0703 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AVFoundation.framework; sourceTree = "<group>"; };
+		A05D69BF18B937DA00BD0703 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AudioToolbox.framework; sourceTree = "<group>"; };
+		A05D69C318B9389B00BD0703 /* AudioEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AudioEngine.h; path = ../AudioEngine.h; sourceTree = "<group>"; };
+		A05D69C418B9389B00BD0703 /* AudioEngine.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = AudioEngine.mm; path = ../AudioEngine.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +50,9 @@
 				A05D69A118B92D0100BD0703 /* UIKit.framework in Frameworks */,
 				A05D69A318B92D0100BD0703 /* Foundation.framework in Frameworks */,
 				A05D69A518B92D0100BD0703 /* CoreGraphics.framework in Frameworks */,
+				A05D69C018B937DA00BD0703 /* MediaPlayer.framework in Frameworks */,
+				A05D69C118B937DA00BD0703 /* AVFoundation.framework in Frameworks */,
+				A05D69C218B937DA00BD0703 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +62,9 @@
 		A05D699418B92D0100BD0703 = {
 			isa = PBXGroup;
 			children = (
+				A05D69BD18B937DA00BD0703 /* MediaPlayer.framework */,
+				A05D69BE18B937DA00BD0703 /* AVFoundation.framework */,
+				A05D69BF18B937DA00BD0703 /* AudioToolbox.framework */,
 				A05D69A618B92D0100BD0703 /* MuHack */,
 				A05D699F18B92D0100BD0703 /* Frameworks */,
 				A05D699E18B92D0100BD0703 /* Products */,
@@ -78,8 +92,10 @@
 		A05D69A618B92D0100BD0703 /* MuHack */ = {
 			isa = PBXGroup;
 			children = (
+				A05D69C318B9389B00BD0703 /* AudioEngine.h */,
+				A05D69C418B9389B00BD0703 /* AudioEngine.mm */,
 				A05D69AF18B92D0100BD0703 /* MuHackAppDelegate.h */,
-				A05D69B018B92D0100BD0703 /* MuHackAppDelegate.m */,
+				A05D69B018B92D0100BD0703 /* MuHackAppDelegate.mm */,
 				A05D69A718B92D0100BD0703 /* Supporting Files */,
 			);
 			path = MuHack;
@@ -166,7 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A05D69AD18B92D0100BD0703 /* main.m in Sources */,
-				A05D69B118B92D0100BD0703 /* MuHackAppDelegate.m in Sources */,
+				A05D69B118B92D0100BD0703 /* MuHackAppDelegate.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +259,10 @@
 		A05D69BB18B92D0100BD0703 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MuHack/MuHack-Prefix.pch";
 				INFOPLIST_FILE = "MuHack/MuHack-Info.plist";
@@ -254,6 +274,10 @@
 		A05D69BC18B92D0100BD0703 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MuHack/MuHack-Prefix.pch";
 				INFOPLIST_FILE = "MuHack/MuHack-Info.plist";
