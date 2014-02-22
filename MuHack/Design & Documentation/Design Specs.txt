@@ -1,13 +1,24 @@
-Goal: design a souped up badass music player
-
-
+Goals / Basic concepts:
+	
+	Design a souped up badass music player
+	Load in a user’s music library
+	Use MusicGraph to obtain “proper” information on the artist
+	Use parameters based on artist information, genre, etc. to make a visualizer.
 
 Users should be able to share eq’s for an artist, 
 
-User database:
+Database management:
 	username
 		-this is the primary key
 	password
 		-encrypt this with blowfish
 	email
 	
+
+
+
+UI:
+	Use storyboard for page arrangement, which would include:
+		Settings pages for visualizer and EQs
+		Media player (typical Apple music / Spotify arrangement)
+		
